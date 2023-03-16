@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <!-- JavaScript Bundle with Popper -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assests/Fav icon.png" type="image/x-icon">
+
+    <title>Inkedtech's FAQs</title>
+</head>
+
+<body>
+    <!-- arrow -->
+    <a href="#top" class="navtop">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+    <!-- arrow ends -->
+
+    <!-- Navbar  -->
+    <nav id="top" class="navbar navbar-expand-lg bg-light shadow-sm px-2 py-1 overflow-hidden">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assests/Inkedtech Logo.png" alt="Logo" width="100" height="70"
+                    class="d-inline-block align-text-center logo" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-lg-4 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="course.html">Our Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yapbooks.html">YAP books</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <button class="btn btn-custom" type="submit">
+                    <a href="form.html" class="nav-btn">Start learning </a>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar ends -->
+
+    <div class="container py-5 position-relative overflow-hidden">
+        <div class="pt-3 previousIcon overflow-hidden">
+            <a href="index.html" style="color: var(--primary-color)">
+                <i class="fas fa-arrow-circle-left fa-2x"></i>
+            </a>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000"
+            class="text-center h1 car-main position-absolute formHead overflow-hidden"
+            style="color: var(--primary-color);top: 0;">
+            Registration
+            <span style="color: var(--primary-color)">Form</span>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div class="wrapper rounded bg-white mt-0 overflow-hidden">
+
+        <div class="form">
+            <div class="row">
+                <div class="mt-md-0 mt-3">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-md-0 mt-3">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-md-0 mt-3">
+                    <label>Phone Number</label>
+                    <input type="tel" class="form-control" placeholder="Enter your mobile number" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-md-0 mt-3">
+                    <label>Parents Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your parents name" required>
+                </div>
+            </div>
+
+            <div class=" my-md-2 my-3">
+                <label>Course</label>
+                <select id="sub" required>
+                    <option value="" selected hidden>Choose your course</option>
+                    <option value="Junior Writer Program">Junior Writer Program</option>
+                    <option value="Young Author Program">Young Author Program</option>
+                    <option value="Social">Essay Writing Workshop</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class="mt-md-0 mt-3">
+                    <label>Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn btn-clr text-white mt-3">Submit</div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- End Form -->
+
+    <footer class="text-center py-4 shadow-xl footer">
+        <div>
+            Copyright (C) 2023
+            <span style="color: var(--primary-color); font-weight: 500">Inkedtech</span>. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+
+    <!-- Custom Js -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
