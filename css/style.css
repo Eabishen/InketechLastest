@@ -525,6 +525,7 @@ a {
     color: var(--primary-color);
     text-align: end;
     font-weight: 500;
+    padding: 8px 10px;
 }
 
 .cardgridcontainer .cardcontents a i {
