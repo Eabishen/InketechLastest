@@ -58,21 +58,24 @@ var swiper = new Swiper(".mySwiper3", {
 });
 
 
-function getHeight() {
-    const heightele = document.querySelector(".bottom");
-    let wrapperheight = document.querySelector(".wholewrap");
+// function getHeight() {
+//     const heightele = document.querySelector(".bottom");
+//     let wrapperheight = document.querySelector(".wholewrap");
 
 
-    let dynamicHeighter = heightele.offsetHeight
+//     let dynamicHeighter = heightele.offsetHeight;
+//     let dynamicHeighter2 = heightele.clientHeight;
 
-    wrapperheight.style.height = `${dynamicHeighter}px ${- 200}px`
-}
+//     console.log(dynamicHeighter2);
 
-const swiperbtn = document.querySelector(".swip")
+//     wrapperheight.style.height = `${dynamicHeighter2}px`
+// }
 
-swiperbtn.addEventListener("click", function () {
-    getHeight();
-})
+// const swiperbtn = document.querySelector(".swip")
 
+// swiperbtn.addEventListener("click", function () {
+//     getHeight();
+// })
 
-getHeight();
+// setInterval(getHeight, 1000)
+// getHeight();

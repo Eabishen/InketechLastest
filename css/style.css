@@ -365,6 +365,7 @@ a {
 @media only screen and (max-width: 992px) {
     .cust-out {
         height: 330px;
+        overflow-y: scroll;
     }
 
 }
@@ -377,7 +378,9 @@ a {
 
 @media only screen and (max-width: 500px) {
     .cust-out {
-        height: 500px;
+        height: 250px;
+        overflow-y: scroll;
+
     }
 
     #landingPages {
